@@ -24,11 +24,16 @@ c. Saves the trained model as cartpole_dqn.pth.
 
 ### 4. Evaluate
 `python evaluate.py`
+
 a. Loads the trained model.
+
 b. Runs and renders the agent interacting with the CartPole environment.
+
 c. Press Ctrl+C to manually stop the rendering loop.
 
 ### Output
 a. A reward vs. episode plot will be shown.
+
 b. Model weights saved to cartpole_dqn.pth.
+
 c. Visual demonstration of the trained agent balancing the pole.
