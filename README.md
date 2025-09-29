@@ -3,17 +3,25 @@ A PyTorch implementation of Deep Q-Learning to solve the CartPole-v1 environment
 ## Getting Started
 ### 1. Clone the repository (or copy the files)
 `git clone <your-repo-url>`
+
 `cd cartpole_dqn_project`
 ### 2. Install dependencies
 We recommend using a virtual environment:
+
 `python -m venv env`
+
 `env\scripts\activate`
+
 `pip install -r requirements.txt`
 ### 3. Train the model
 `python train.py`
+
 a. Trains the agent over 500 episodes.
+
 b. Plots the reward over time.
+
 c. Saves the trained model as cartpole_dqn.pth.
+
 ### 4. Evaluate
 `python evaluate.py`
 a. Loads the trained model.
